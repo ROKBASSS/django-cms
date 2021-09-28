@@ -18,7 +18,7 @@ services:
     ports:
       - "80:80"
       - "443:443"
-    depends:
+    depends_on:
       - django-cms
     volumes:
       - /var/run/docker.sock:/tmp/docker.sock:ro
