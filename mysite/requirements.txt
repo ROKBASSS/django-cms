@@ -55,7 +55,7 @@ django-cms==4.1.2
     #   djangocms-versioning
 django-entangled==0.5.4
     # via djangocms-frontend
-django-filer==3.1.4
+django-filer==3.3.0
     # via
     #   -r requirements.in
     #   djangocms-frontend
